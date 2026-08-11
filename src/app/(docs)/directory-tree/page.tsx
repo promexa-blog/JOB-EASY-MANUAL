@@ -22,9 +22,6 @@ export default function DirectoryTreePage() {
       </div>
 
       <div className="prose max-w-none text-[15px] leading-relaxed text-[var(--color-fg-muted)] mb-12">
-        <Callout type="tip" title="Interactive Editor Links">
-          This file tree is generated dynamically from the live filesystem. Because this manual runs locally, clicking on any file will use the <code>vscode://</code> URI scheme to open it directly in your VSCode editor!
-        </Callout>
 
         <div className="my-8">
           <FileTree basePath={rootPath} />
